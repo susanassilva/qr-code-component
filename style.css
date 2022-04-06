@@ -45,4 +45,16 @@ p {
 .footer-info {
   margin: 0;
   text-align: center;
+  font-size: 0.75rem;
 }
+
+@media screen and (max-width: 980px) {
+  .container {
+    padding: 0.24rem;
+    width: 70%;
+  }
+  .content-box-infos {
+    padding: 0 1.35rem 1rem 1.35rem;
+  }
+}
+
